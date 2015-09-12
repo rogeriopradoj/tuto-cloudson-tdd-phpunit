@@ -1,5 +1,7 @@
 <?php
 
+require 'Newsletter.php';
+
 class NewsletterTest extends PHPUnit_Framework_TestCase
 {
     public function testDeveriaRetornarGruposVaziosSeRecebeuNenhumEmail()
